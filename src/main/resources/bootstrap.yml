@@ -1,4 +1,0 @@
-aws:
-  kms:
-    keyId: 키 아이디
-    encryptionAlgorithm: "RSAES_OAEP_SHA_256"
