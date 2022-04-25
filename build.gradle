@@ -1,7 +1,11 @@
 plugins {
-    id 'org.springframework.boot' version '2.6.6'
+    id 'org.springframework.boot' version '2.3.8.RELEASE'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
+}
+
+ext {
+    set('springCloudVersion', "Hoxton.SR9")
 }
 
 group = 'com.example'
